@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: MC-KAFKA-LISTENER
+  kafka:
+    consumer:
+      topic: TOPIC
+      bootstrap-servers: localhost:9092
+
+http-address: localhost:9999
+group-id: grId
+
+logging:
+  level:
+    com.bd: trace
+    org.apache.kafka: off
+server:
+  port: 8778
